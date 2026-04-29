@@ -1,0 +1,70 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good day"],
+      "responses": [
+        "Hello, I'm here to listen.",
+        "Hi there. How are you feeling today?",
+        "Hey. I'm glad you reached out."
+      ]
+    },
+    {
+      "tag": "sadness",
+      "patterns": [
+        "I feel sad",
+        "I'm sad",
+        "I feel unhappy",
+        "I'm feeling low",
+        "I feel empty",
+        "sad"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way. Do you want to talk about what's been bothering you?",
+        "It's okay to feel sad sometimes. You're not alone here.",
+        "Thank you for sharing that with me. I'm listening."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "I'm stressed",
+        "I'm overwhelmed",
+        "I feel overwhelmed",
+        "Too much pressure",
+        "I feel anxious",
+        "overwhelmed"
+      ],
+      "responses": [
+        "That sounds really overwhelming. Want to take a slow breath together?",
+        "Stress can be tough. What's causing the most pressure right now?",
+        "You're doing your best, even if it doesn't feel like it."
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": ["yes", "yeah", "okay", "sure", "alright", "yep"],
+      "responses": [
+        "Okay. Let's take a slow breath together. Breathe in for 4 seconds, hold for 4, and breathe out for 6.",
+        "Alright. Try focusing on your breath for a moment. I'm here with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": [
+        "You're welcome. I'm glad I could be here for you.",
+        "Anytime. You deserve support."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "I have to go", "quit"],
+      "responses": [
+        "Take care of yourself. I'm here whenever you need to talk.",
+        "Goodbye. Remember, you’re not alone."
+      ]
+    }
+  ]
+}
